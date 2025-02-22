@@ -1,0 +1,15 @@
+#name = input("enter your full name :")
+phonenumber = input("enter your phone number :")
+
+#result = len(name)
+#result = name.find(" ")
+#result = name.rfind("i")
+#result = name.capitalize()
+#result = name.upper()
+#result = name.lower()
+#result = name.isdigit()
+#result = name.isalpha()
+
+result = phonenumber.count("-")
+result = phonenumber.replace("-"," ")
+print(f"{result}")
